@@ -75,7 +75,7 @@ const handleSubmit = async (e) => {
   loader(messageDiv)
   //fetch data from bot
 
-  const response = await fetch('https://respai.onrender.com/', {
+  const response = await fetch('https://respai-your-coding-ai.onrender.com/', {
     method: 'POST',
     headers: {
       "Content-Type": "application/json"
